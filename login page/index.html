@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Login Here</h1>
+        <form method="get" action="Home.html">
+            <div class="txt_feild">
+                <!-- <p>Username</p> -->
+                <input type="text" required>
+                <span></span>
+                <label>Username</label>
+            </div>
+
+            <div class="txt_feild">
+                <!-- <p>Password</p> -->
+                <input type="password" id="Pwd" required  pattern=".{8,}">
+                <span></span>
+                <label>Password</label>
+            </div>
+
+            <input type="submit" name="" value="Login"><br>
+
+            <p class="register">Don't have an account?<a href="signup.html" class="register-link">Register</a></p>
+        </form>
+</body>
+</html>

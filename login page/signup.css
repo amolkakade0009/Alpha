@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: url(ft_bg.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.wrapper {
+  width: fit-content;
+  height: fit-content;
+  background: #87968d;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 30px 80px;
+  border-radius: 5%;
+  box-shadow: 20px 20px 50px rgba(30, 33, 58, 0.4);
+  margin: 0;
+}
+
+h1 {
+  color: #ece8da;
+  margin: 0;
+  padding: 0 0 35px;
+  text-align: center;
+}
+
+.wrapper input {
+  width: 100%;
+}
+
+.wrapper input[type="text"],
+.wrapper input[type="password"] {
+  border: none;
+  margin: 8px 0 40px 0;
+  border-bottom: 1px solid #ece8da;
+  background-color: #87968d;
+  outline: none;
+  height: 30px;
+  color: #ece8da;
+  font-size: 16px;
+}
+
+.wrapper input[type="submit"] {
+  color: #ece8da;
+  border: none;
+  outline: none;
+  height: 35px;
+  background-color: #516a63;
+  margin: 0 0 25px 0;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.wrapper input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #0d513e;
+}
+
+.wrapper a {
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 6px;
+  color: #dec3be;
+}
+
+.wrapper a:hover {
+  color: #b3a199;
+  text-decoration: underline;
+}
+
+form .txt_feild {
+  position: relative;
+}
+
+.txt_feild label {
+  position: absolute;
+  top: 30%;
+  left: 5px;
+  color: #ece8da;
+  transform: translateY(-50%);
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.txt_feild span::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  transition: 0.5s;
+}
+
+.txt_feild input:focus ~ label,
+.txt_feild input:valid ~ label {
+  top: -5px;
+}
+
+.txt_feild input:focus ~ span::before,
+.txt_feild input:valid ~ span::before {
+  width: 100%;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 80%;
+    padding: 30px;
+  }
+
+  .wrapper input[type="text"],
+  .wrapper input[type="password"] {
+    margin: 8px 0 25px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .wrapper input[type="text"],
+  .wrapper input[type="password"] {
+    margin: 8px 0 15px 0;
+  }
+}

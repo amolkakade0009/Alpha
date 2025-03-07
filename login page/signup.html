@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Sign-up</h1>
+        <form method="get" action="Home.html">
+            <div class="txt_feild">
+                <!-- <p>Username</p> -->
+                <input type="text" required>
+                <span></span>
+                <label>Username</label>
+            </div>
+
+            <div class="txt_feild">
+                <!-- <p>Password</p> -->
+                <input type="password" id="Pwd" required  pattern=".{8,}">
+                <span></span>
+                <label for="Pwd">Password</label>
+            </div>
+
+            <div class="txt_feild">
+                <!-- <p>Username</p> -->
+                <input type="text" required pattern="[a-zA-Z0-9._%+-]+@gmail\.com$">
+                <span></span>
+                <label for="Eml">email-id</label>
+            </div>
+
+            <input type="submit" name="" value="Login"><br>
+        </form>
+</body>
+</html>

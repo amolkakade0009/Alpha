@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./images/gym-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:block;
+    
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    color: white;
+    /* color: black; */
+
+   
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+label,
+input,
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 18px;
+    /* color: black; */
+}
+/* label{
+    color: black;
+} */
+input{
+    background-color: rgb(188, 181, 181);
+}
+
+
+button {
+    font-size: 16px;
+    margin-top: 25px;
+    padding: 10px;
+    background-color: gray;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.alert{
+    color: red;
+}
+
+.access-status{
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+
+}
+.access-status p{
+    font-size: 15px;
+     
+}
+.access-status a{
+    font-size: 16px;
+    margin-left: 12px;
+    color: #f9032f;
+}
+.small_alert{
+    color: red;
+
+}
+small{
+    color: #f9032f;
+}

@@ -1,0 +1,30 @@
+.table-container{
+    margin: 5%
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.error{
+    text-align: center;
+    color: red;
+    font-size: x-large;
+}
+
+.mt-4{
+    margin-top: 4%;
+}

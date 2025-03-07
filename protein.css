@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+}
+body{
+   margin: 0px;
+  
+}
+
+.protein_header{
+    background-color:  rgb(198, 198, 198);
+    height: 150px;
+    margin: 0px;
+    padding: 15px;
+    
+  
+    
+}
+.protein-title{
+    /* width: fit-content;
+    height: fit-content; */
+    width: 400px;
+    margin: 0px 0px 0px 600px;
+}
+
+.p1{
+    margin-top: 15px;
+    font-size: 40px;
+    padding: 0px;    
+}
+.p2{
+    font-size: 18px;
+}
+
+.protein-suggestion{
+    /* margin: 20px 20px 0px 1250px; */
+    margin-left: 1200px;
+    width: 250px;
+    font-size: 18px;
+    color: red;
+    
+}
+
+.protein-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  rgb(221, 221, 221);
+    flex-wrap: wrap;
+
+} 
+.protein-container{
+    width: 279px;
+    height: 450px;
+    background-color: white;
+    margin: 10px;
+
+    
+    
+}
+.box-image{
+    width: 260px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 9px;
+}
+
+.box1-image{
+    background-image: url(./proteinImages/p-1.webp);
+
+}
+.box2-image{
+    background-image: url(./proteinImages/p-10.webp);
+
+}
+.box3-image{
+    background-image: url(./proteinImages/p-3.webp);
+
+}
+.box4-image{
+    background-image: url(./proteinImages/p-4.webp);
+
+}
+.box5-image{
+    background-image: url(./proteinImages/p-5.webp);
+
+}   
+.box6-image{
+    background-image: url(./proteinImages/p-6.webp);
+
+}
+.box7-image{
+    background-image: url(./proteinImages/p-7.webp);
+
+}
+.box8-image{
+    background-image: url(./proteinImages/p-8.webp);
+
+}
+.box9-image{
+    background-image: url(./proteinImages/p-9.webp);
+
+}
+.box10-image{
+    background-image: url(./proteinImages/p-2.webp);
+
+}
+.box11-image{
+    background-image: url(./proteinImages/p-11.webp);
+
+}
+.box12-image{
+    background-image: url(./proteinImages/p-12.webp);
+
+}
+.box13-image{
+    background-image: url(./proteinImages/p-13.webp);
+
+}
+
+.p-name{
+    margin: 10px;
+    font-size: 18px;
+ 
+}
+.p-price{
+    margin: 10px;
+    font-size: 16px;
+}
+
+.protein-container a{
+    margin: 10px;
+    font-size: 16px;
+}
